@@ -1,0 +1,51 @@
+.text_title{
+    text-align: left;
+    background: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+
+.text_publisher{
+    font-size: 28px;
+    font-weight: lighter;
+    color: rgb(103, 103, 103);
+}
+
+li.pointer
+{
+    cursor: pointer;
+}
+
+.search-list
+{
+    margin-bottom: 30px;
+    max-height: 750px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.list-title
+{
+    font-size: 1.45rem;
+    text-overflow: ellipsis;
+    max-width: 25rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.title-img 
+{
+    flex: 0 0 5.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 5.8rem;
+    position: relative;
+    backface-visibility: hidden;
+}
+
+#intro-list
+{
+    margin-bottom: 25px;
+}
